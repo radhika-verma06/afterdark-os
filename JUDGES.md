@@ -15,6 +15,7 @@
 3. Open **Repair planner**. Set the budget to ₹3,000, then ₹5,000. Compare the selected repairs and the projected coverage. Toggle **Before / After**.
 4. Open **Issue tracker**. Record a maintenance note and advance an example report through Reported → Assessed → Scheduled → Repaired → Field-checked. The coverage baseline changes only at the field check.
 5. Use **Save scenario** and **Export CSV** to see the decision leave the app.
+6. In **Issue tracker → New report**, attach a photo and tap **Suggest with Gemini**. The suggestion fills the category, title and description; edit it if needed and submit. Manual categorisation works without Gemini. See `submission/screenshots/gemini-suggest.png`.
 
 ## What is real and what is synthetic
 

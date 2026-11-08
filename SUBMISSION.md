@@ -18,6 +18,7 @@ A dark path is easy to report and hard to prioritise. Campus teams need to know 
 - **Campus map:** connected pathways, lights, buildings and reported issues; select a path or asset to inspect it.
 - **Repair planner:** choose a budget, evaluate every feasible repair subset, and compare before/after coverage with saved scenarios and CSV export.
 - **Issue tracker:** report a lighting problem, add an optional photo, and track it through a strict maintenance lifecycle.
+- **Gemini photo assist:** tap **Suggest with Gemini** to get a suggested category, title and description from the attached photo; the reporter reviews and edits it before submitting, and manual categorisation always remains available.
 - **Field check:** estimated coverage changes only after an issue is advanced to Field-checked with a maintenance note.
 
 ## How we built it
@@ -36,7 +37,7 @@ The app is a Next.js App Router project with React, TypeScript, Tailwind CSS, Pr
 - A working end-to-end flow from report to prioritised repair plan.
 - An exact optimiser that gives visibly different plans at ₹3,000 and ₹5,000.
 - A map and issue workflow that work with keyboard navigation as well as touch.
-- A submission demo that runs locally with no API key and no hidden model calls.
+- A submission demo whose core planner runs locally with no API key; Gemini photo help is optional, explicit and server-side.
 
 ## What we learned
 
@@ -45,7 +46,7 @@ Small, well-modelled decisions are easier to trust than a black-box score. Showi
 ## What's next
 
 - Replace synthetic geometry with a real campus survey and measured lighting levels.
-- Add photo-assisted categorisation as an explicitly user-triggered assistant.
+- Extend the Gemini assistant to combine photo, location and report text with a visible rationale.
 - Export a maintenance work order and track contractor costs.
 - Test the prioritisation with campus operations staff.
 
@@ -92,10 +93,11 @@ Open `http://localhost:3000`.
 - [Campus map](submission/screenshots/map.png)
 - [Repair planner](submission/screenshots/planner.png)
 - [Issue tracker](submission/screenshots/issues.png)
+- [Gemini photo suggestion](submission/screenshots/gemini-suggest.png)
 
 ## Technical note and limitations
 
-The repair planner uses deterministic exhaustive subset search, not an LLM. Coverage is a planning estimate from synthetic baseline values, not measured illumination or a safety score. Repair costs are estimates. The issue tracker is a local MVP; it does not dispatch work orders or contact contractors. Gemini-assisted photo categorisation is not implemented; reports are categorised manually.
+The repair planner uses deterministic exhaustive subset search, not an LLM. Coverage is a planning estimate from synthetic baseline values, not measured illumination or a safety score. Repair costs are estimates. The issue tracker is a local MVP; it does not dispatch work orders or contact contractors. Gemini photo assistance is optional and server-side: it suggests a category, title and description, while the reporter reviews and edits the result. It never decides whether a repair happens and never changes the coverage baseline; manual categorisation remains available.
 
 ## Submission checklist
 
