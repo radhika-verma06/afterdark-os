@@ -55,7 +55,7 @@ Next.js, TypeScript, React, Tailwind CSS, Prisma, SQLite, Zod, Recharts, Framer 
 
 ## Try it out
 
-- **Public source repository:** [ADD PUBLIC GITHUB REPOSITORY URL]
+- **Public source repository:** https://github.com/radhika-verma06/afterdark-os
 - **Working demo:** https://afterdark-os.vercel.app
 - **Demo video:** https://afterdark-os.vercel.app/demo.mp4
 
@@ -99,9 +99,9 @@ The repair planner uses deterministic exhaustive subset search, not an LLM. Cove
 
 ## Submission checklist
 
-- [ ] Add the public repository URL.
-- [ ] Add the deployed demo URL.
-- [ ] Add the demo video URL.
+- [x] Add the public repository URL.
+- [x] Add the deployed demo URL.
+- [x] Add the demo video URL.
 - [ ] Add all 2–5 team members and roles.
 - [ ] Confirm the project was built for HERHACK and not submitted elsewhere.
 - [ ] Submit on Devpost before **10 November 2026, 11:45 pm EST**.

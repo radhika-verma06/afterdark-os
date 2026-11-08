@@ -36,7 +36,7 @@ Manual categorisation is always available and is the only categorisation path in
 
 - **Event:** HERHACK 2026, Student Innovation track
 - **Team:** [ADD 2–5 TEAM MEMBERS AND ROLES]
-- **Public repository:** [ADD PUBLIC GITHUB URL]
+- **Public repository:** https://github.com/radhika-verma06/afterdark-os
 - **Working demo:** https://afterdark-os.vercel.app
 - **Demo video:** https://afterdark-os.vercel.app/demo.mp4
 - **Submission copy:** [SUBMISSION.md](SUBMISSION.md)
