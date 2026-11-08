@@ -57,7 +57,7 @@ Next.js, TypeScript, React, Tailwind CSS, Prisma, SQLite, Zod, Recharts, Framer 
 
 - **Public source repository:** [ADD PUBLIC GITHUB REPOSITORY URL]
 - **Working demo:** [ADD DEPLOYED HTTPS URL] (or run locally with the commands below)
-- **Demo video:** [ADD VIDEO URL]
+- **Demo video:** [submission/video/demo-screen.mp4](submission/video/demo-screen.mp4) — local screen recording; upload it and replace this with the public video URL.
 
 ### Run locally
 
