@@ -14,3 +14,8 @@ demo-film/assets/voice.wav
 demo-film/index-*.png
 
 demo-film/.om/
+
+afterdark-film/out/
+afterdark-film/assets/sound.wav
+afterdark-film/assets/voice.wav
+afterdark-film/index-*.png
