@@ -66,37 +66,44 @@ export async function POST(request: Request) {
     "and confidence from 0 to 1. Do not invent a location, a repair cost or a safety conclusion. " +
     "If the photo is unclear, use Other and say what is visible.";
 
-  let response: Response;
-  try {
-    response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": key,
-        },
-        body: JSON.stringify({
-          systemInstruction: { parts: [{ text: prompt }] },
-          contents: [
-            {
-              role: "user",
-              parts: [
-                { text: "Categorise this campus lighting report photo." },
-                { inlineData: { mimeType: photo.type, data: base64 } },
-              ],
-            },
-          ],
-          generationConfig: {
-            temperature: 0.2,
-            maxOutputTokens: 1200,
-            responseMimeType: "application/json",
-            thinkingConfig: { thinkingBudget: 0 },
+  const models = [...new Set([model, "gemini-3.5-flash"])];
+  let response: Response | null = null;
+  for (const candidate of models) {
+    try {
+      response = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${candidate}:generateContent`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-goog-api-key": key,
           },
-        }),
-      },
-    );
-  } catch {
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: prompt }] },
+            contents: [
+              {
+                role: "user",
+                parts: [
+                  { text: "Categorise this campus lighting report photo." },
+                  { inlineData: { mimeType: photo.type, data: base64 } },
+                ],
+              },
+            ],
+            generationConfig: {
+              temperature: 0.2,
+              maxOutputTokens: 1200,
+              responseMimeType: "application/json",
+              thinkingConfig: { thinkingBudget: 0 },
+            },
+          }),
+        },
+      );
+      if (response.ok || ![404, 503].includes(response.status)) break;
+    } catch {
+      response = null;
+    }
+  }
+  if (!response) {
     return NextResponse.json({ error: "Could not reach Gemini." }, { status: 502 });
   }
 
