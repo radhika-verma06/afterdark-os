@@ -12,3 +12,5 @@ demo-film/out/
 demo-film/assets/sound.wav
 demo-film/assets/voice.wav
 demo-film/index-*.png
+
+demo-film/.om/
