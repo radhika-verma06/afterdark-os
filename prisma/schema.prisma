@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Pathway {
+  id                String          @id
+  name              String
+  lengthM           Float
+  footfallWeight    Float
+  baselineCoverage  Float
+  impacts           RepairImpact[]
+  streetlights      Streetlight[]
+  issues            Issue[]
+}
+
+model Streetlight {
+  id             String   @id
+  name           String
+  x              Float
+  y              Float
+  condition      String
+  estimatedCost  Int
+  pathwayId      String
+  pathway        Pathway  @relation(fields: [pathwayId], references: [id])
+  issue          Issue?
+}
+
+model Issue {
+  id             String         @id
+  title          String
+  description    String
+  category       String
+  status         String         @default("REPORTED")
+  locationLabel  String
+  x              Float
+  y              Float
+  estimatedCost  Int
+  photoName      String?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  pathwayId      String
+  pathway        Pathway        @relation(fields: [pathwayId], references: [id])
+  streetlightId  String?        @unique
+  streetlight    Streetlight?   @relation(fields: [streetlightId], references: [id])
+  impacts        RepairImpact[]
+  history        IssueHistory[]
+}
+
+model RepairImpact {
+  issueId      String
+  pathwayId    String
+  improvement Float
+  issue        Issue   @relation(fields: [issueId], references: [id], onDelete: Cascade)
+  pathway      Pathway @relation(fields: [pathwayId], references: [id], onDelete: Cascade)
+
+  @@id([issueId, pathwayId])
+}
+
+model IssueHistory {
+  id          String   @id @default(cuid())
+  issueId     String
+  status      String
+  note        String
+  createdAt   DateTime @default(now())
+  issue       Issue    @relation(fields: [issueId], references: [id], onDelete: Cascade)
+}
+
+model Scenario {
+  id               String   @id @default(cuid())
+  name             String
+  budget           Int
+  issueIds         String
+  pathCoverage     String
+  projectedPercent Float
+  weightedGain     Float
+  createdAt        DateTime @default(now())
+}
