@@ -1,0 +1,500 @@
+{
+ "source": "tts:kokoro:af_heart",
+ "precision": "tts",
+ "offset": 0,
+ "duration": 37.596,
+ "sentences": [
+  {
+   "text": "Campus lighting reports are scattered across emails, spreadsheets and maintenance requests.",
+   "start": 0,
+   "end": 5.177
+  },
+  {
+   "text": "When the budget is limited, which repair should happen first?",
+   "start": 5.427,
+   "end": 8.452
+  },
+  {
+   "text": "AfterDark OS puts every report on one campus map.",
+   "start": 8.703,
+   "end": 12.101
+  },
+  {
+   "text": "Pathways, lights, buildings and open issues.",
+   "start": 12.35,
+   "end": 15.017
+  },
+  {
+   "text": "Choose a budget.",
+   "start": 15.267,
+   "end": 16.162
+  },
+  {
+   "text": "The optimiser compares every feasible repair using path length, evening footfall, and capped coverage gains.",
+   "start": 16.412,
+   "end": 22.971
+  },
+  {
+   "text": "It returns the combination that lights the most walked paths for the money.",
+   "start": 23.221,
+   "end": 27.187
+  },
+  {
+   "text": "Track every report from reported, to assessed, scheduled, repaired, and field-checked.",
+   "start": 27.437,
+   "end": 32.352
+  },
+  {
+   "text": "AfterDark OS.",
+   "start": 32.602,
+   "end": 33.737
+  },
+  {
+   "text": "Better-lit paths.",
+   "start": 33.987,
+   "end": 34.961
+  },
+  {
+   "text": "Smarter repairs.",
+   "start": 35.21,
+   "end": 36.274
+  },
+  {
+   "text": "Safer campuses.",
+   "start": 36.524,
+   "end": 37.595
+  }
+ ],
+ "words": [
+  {
+   "word": "Campus",
+   "start": 0,
+   "end": 0.378
+  },
+  {
+   "word": "lighting",
+   "start": 0.378,
+   "end": 0.757
+  },
+  {
+   "word": "reports",
+   "start": 0.757,
+   "end": 1.135
+  },
+  {
+   "word": "are",
+   "start": 1.135,
+   "end": 1.514
+  },
+  {
+   "word": "scattered",
+   "start": 1.514,
+   "end": 2.081
+  },
+  {
+   "word": "across",
+   "start": 2.081,
+   "end": 2.46
+  },
+  {
+   "word": "emails",
+   "start": 2.46,
+   "end": 2.838
+  },
+  {
+   "word": "spreadsheets",
+   "start": 3.201,
+   "end": 3.64
+  },
+  {
+   "word": "and",
+   "start": 3.64,
+   "end": 3.86
+  },
+  {
+   "word": "maintenance",
+   "start": 3.86,
+   "end": 4.738
+  },
+  {
+   "word": "requests",
+   "start": 4.738,
+   "end": 5.177
+  },
+  {
+   "word": "When",
+   "start": 5.427,
+   "end": 5.576
+  },
+  {
+   "word": "the",
+   "start": 5.576,
+   "end": 5.725
+  },
+  {
+   "word": "budget",
+   "start": 5.725,
+   "end": 6.023
+  },
+  {
+   "word": "is",
+   "start": 6.023,
+   "end": 6.172
+  },
+  {
+   "word": "limited",
+   "start": 6.172,
+   "end": 6.618
+  },
+  {
+   "word": "which",
+   "start": 6.906,
+   "end": 7.127
+  },
+  {
+   "word": "repair",
+   "start": 7.127,
+   "end": 7.569
+  },
+  {
+   "word": "should",
+   "start": 7.569,
+   "end": 7.79
+  },
+  {
+   "word": "happen",
+   "start": 7.79,
+   "end": 8.231
+  },
+  {
+   "word": "first",
+   "start": 8.231,
+   "end": 8.452
+  },
+  {
+   "word": "AfterDark",
+   "start": 8.703,
+   "end": 9.302
+  },
+  {
+   "word": "OS",
+   "start": 9.302,
+   "end": 9.502
+  },
+  {
+   "word": "puts",
+   "start": 9.502,
+   "end": 9.701
+  },
+  {
+   "word": "every",
+   "start": 9.701,
+   "end": 10.503
+  },
+  {
+   "word": "report",
+   "start": 10.503,
+   "end": 10.902
+  },
+  {
+   "word": "on",
+   "start": 10.902,
+   "end": 11.102
+  },
+  {
+   "word": "one",
+   "start": 11.102,
+   "end": 11.501
+  },
+  {
+   "word": "campus",
+   "start": 11.501,
+   "end": 11.901
+  },
+  {
+   "word": "map",
+   "start": 11.901,
+   "end": 12.101
+  },
+  {
+   "word": "Pathways",
+   "start": 12.35,
+   "end": 12.853
+  },
+  {
+   "word": "lights",
+   "start": 12.853,
+   "end": 13.116
+  },
+  {
+   "word": "buildings",
+   "start": 13.116,
+   "end": 13.803
+  },
+  {
+   "word": "and",
+   "start": 13.803,
+   "end": 14.046
+  },
+  {
+   "word": "open",
+   "start": 14.046,
+   "end": 14.532
+  },
+  {
+   "word": "issues",
+   "start": 14.532,
+   "end": 15.017
+  },
+  {
+   "word": "Choose",
+   "start": 15.267,
+   "end": 15.625
+  },
+  {
+   "word": "a",
+   "start": 15.625,
+   "end": 15.804
+  },
+  {
+   "word": "budget",
+   "start": 15.804,
+   "end": 16.162
+  },
+  {
+   "word": "The",
+   "start": 16.412,
+   "end": 16.584
+  },
+  {
+   "word": "optimiser",
+   "start": 16.584,
+   "end": 17.27
+  },
+  {
+   "word": "compares",
+   "start": 17.27,
+   "end": 17.784
+  },
+  {
+   "word": "every",
+   "start": 17.784,
+   "end": 18.299
+  },
+  {
+   "word": "feasible",
+   "start": 18.299,
+   "end": 18.813
+  },
+  {
+   "word": "repair",
+   "start": 18.813,
+   "end": 19.156
+  },
+  {
+   "word": "using",
+   "start": 19.156,
+   "end": 19.499
+  },
+  {
+   "word": "path",
+   "start": 19.499,
+   "end": 19.671
+  },
+  {
+   "word": "length",
+   "start": 19.671,
+   "end": 19.842
+  },
+  {
+   "word": "evening",
+   "start": 20.293,
+   "end": 20.839
+  },
+  {
+   "word": "footfall",
+   "start": 20.839,
+   "end": 21.203
+  },
+  {
+   "word": "and",
+   "start": 21.547,
+   "end": 21.725
+  },
+  {
+   "word": "capped",
+   "start": 21.725,
+   "end": 22.081
+  },
+  {
+   "word": "coverage",
+   "start": 22.081,
+   "end": 22.793
+  },
+  {
+   "word": "gains",
+   "start": 22.793,
+   "end": 22.971
+  },
+  {
+   "word": "It",
+   "start": 23.221,
+   "end": 23.412
+  },
+  {
+   "word": "returns",
+   "start": 23.412,
+   "end": 23.794
+  },
+  {
+   "word": "the",
+   "start": 23.794,
+   "end": 23.985
+  },
+  {
+   "word": "combination",
+   "start": 23.985,
+   "end": 25.085
+  },
+  {
+   "word": "that",
+   "start": 25.085,
+   "end": 25.276
+  },
+  {
+   "word": "lights",
+   "start": 25.276,
+   "end": 25.467
+  },
+  {
+   "word": "the",
+   "start": 25.467,
+   "end": 25.658
+  },
+  {
+   "word": "most",
+   "start": 25.658,
+   "end": 25.85
+  },
+  {
+   "word": "walked",
+   "start": 25.85,
+   "end": 26.232
+  },
+  {
+   "word": "paths",
+   "start": 26.232,
+   "end": 26.423
+  },
+  {
+   "word": "for",
+   "start": 26.423,
+   "end": 26.614
+  },
+  {
+   "word": "the",
+   "start": 26.614,
+   "end": 26.805
+  },
+  {
+   "word": "money",
+   "start": 26.805,
+   "end": 27.187
+  },
+  {
+   "word": "Track",
+   "start": 27.437,
+   "end": 27.616
+  },
+  {
+   "word": "every",
+   "start": 27.616,
+   "end": 28.155
+  },
+  {
+   "word": "report",
+   "start": 28.155,
+   "end": 28.514
+  },
+  {
+   "word": "from",
+   "start": 28.514,
+   "end": 28.694
+  },
+  {
+   "word": "reported",
+   "start": 28.694,
+   "end": 29.565
+  },
+  {
+   "word": "to",
+   "start": 29.565,
+   "end": 29.747
+  },
+  {
+   "word": "assessed",
+   "start": 29.747,
+   "end": 30.52
+  },
+  {
+   "word": "scheduled",
+   "start": 30.52,
+   "end": 31.071
+  },
+  {
+   "word": "repaired",
+   "start": 31.071,
+   "end": 31.623
+  },
+  {
+   "word": "and",
+   "start": 31.623,
+   "end": 31.805
+  },
+  {
+   "word": "field-checked",
+   "start": 31.805,
+   "end": 32.352
+  },
+  {
+   "word": "AfterDark",
+   "start": 32.602,
+   "end": 33.453
+  },
+  {
+   "word": "OS",
+   "start": 33.453,
+   "end": 33.737
+  },
+  {
+   "word": "Better-lit",
+   "start": 33.987,
+   "end": 34.717
+  },
+  {
+   "word": "paths",
+   "start": 34.717,
+   "end": 34.961
+  },
+  {
+   "word": "Smarter",
+   "start": 35.21,
+   "end": 35.742
+  },
+  {
+   "word": "repairs",
+   "start": 35.742,
+   "end": 36.274
+  },
+  {
+   "word": "Safer",
+   "start": 36.524,
+   "end": 36.953
+  },
+  {
+   "word": "campuses",
+   "start": 36.953,
+   "end": 37.595
+  }
+ ]
+}

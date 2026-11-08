@@ -37,8 +37,8 @@ Manual categorisation is always available and is the only categorisation path in
 - **Event:** HERHACK 2026, Student Innovation track
 - **Team:** [ADD 2–5 TEAM MEMBERS AND ROLES]
 - **Public repository:** [ADD PUBLIC GITHUB URL]
-- **Working demo:** [ADD DEPLOYED HTTPS URL]
-- **Demo video:** [local screen recording](submission/video/demo-screen.mp4) — upload and replace with the public URL.
+- **Working demo:** https://afterdark-os.vercel.app
+- **Demo video:** https://afterdark-os.vercel.app/demo.mp4
 - **Submission copy:** [SUBMISSION.md](SUBMISSION.md)
 - **License:** [MIT](LICENSE)
 
