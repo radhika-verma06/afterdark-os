@@ -30,7 +30,11 @@ The optimiser enumerates every feasible subset of at most 20 candidates. Its obj
 
 ## Optional Gemini photo categorisation
 
-Manual categorisation is always available and is the only categorisation path in this MVP. `.env.example` documents `GEMINI_API_KEY` for a future explicitly user-triggered photo-assistance feature; no image is sent to an AI service currently.
+Manual categorisation is always available. With `GEMINI_API_KEY` configured, **Suggest with Gemini** in the report form sends the attached photo to Gemini server-side and fills a suggested category, title and description. The reporter reviews and edits the suggestion before submitting; Gemini never changes the coverage baseline.
+
+## HackCamp 2026 submission
+
+See [SUBMISSION-HACKCAMP.md](SUBMISSION-HACKCAMP.md) for the HackCamp-specific copy and eligibility notes.
 
 ## HERHACK 2026 submission
 
